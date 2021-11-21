@@ -18,8 +18,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    app:motionDebug="SHOW_PATH"
     app:layoutDescription="@xml/step3">
-
 
     <ImageView
         android:id="@+id/background"
@@ -48,4 +48,12 @@
         android:text="@string/credits"
         android:textSize="24sp"
         android:textColor="?colorOnPrimary" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        tools:layout_editor_absoluteX="93dp"
+        tools:layout_editor_absoluteY="28dp" />
 </androidx.constraintlayout.motion.widget.MotionLayout>

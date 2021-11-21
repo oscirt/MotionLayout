@@ -35,6 +35,29 @@
                     motion:keyPositionType="parentRelative"
                     motion:percentY="0.5"
             />
+            <KeyPosition
+                motion:framePosition="25"
+                motion:motionTarget="@id/moon"
+                motion:keyPositionType="parentRelative"
+                motion:percentY="0.6" />
+            <KeyPosition
+                motion:framePosition="75"
+                motion:motionTarget="@id/moon"
+                motion:keyPositionType="parentRelative"
+                motion:percentY="0.6" />
+            <KeyPosition
+                motion:framePosition="37"
+                motion:motionTarget="@id/moon"
+                motion:keyPositionType="parentRelative"
+                motion:percentY="0.1"
+                motion:percentX="0.9" />
+            <KeyPosition
+                motion:framePosition="63"
+                motion:motionTarget="@id/moon"
+                motion:keyPositionType="parentRelative"
+                motion:percentY="0.1"
+                motion:percentX="0.1" />
+
             <!-- TODO: Add two more KeyPositions to the KeyFrameSet here -->
 
         </KeyFrameSet>

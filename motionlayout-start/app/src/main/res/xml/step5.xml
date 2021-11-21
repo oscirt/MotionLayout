@@ -47,12 +47,20 @@
                     motion:keyPositionType="parentRelative"
                     motion:percentY="0.6"
             />
-
-            <!-- TODO: Add KeyAttributes to rotate and resize @id/moon -->
-
-
-            <!-- TODO: Add KeyAttribute to delay the appearance of @id/credits -->
-
+            <KeyAttribute
+                motion:framePosition="50"
+                motion:motionTarget="@id/moon"
+                android:scaleX="3.0"
+                android:scaleY="3.0"
+                android:rotationX="-360" />
+            <KeyAttribute
+                motion:framePosition="100"
+                motion:motionTarget="@id/moon"
+                android:rotation="-720" />
+            <KeyAttribute
+                motion:framePosition="80"
+                motion:motionTarget="@id/credits"
+                android:alpha="0.0" />
         </KeyFrameSet>
     </Transition>
 
